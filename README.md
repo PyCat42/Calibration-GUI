@@ -29,4 +29,4 @@ Finally, the user can choose which plots to save to a new folder with a given de
 
 There is also the option to save all the above-mentioned files by checking the ”save all” checkbox. Once a certain plot is saved, the corresponding check button is disabled until the calibration is restarted in order to avoid saving multiple identical plots.
 
-# Note: # File 010 is example of a spectrum file, 011 of a background and 024 and 025 of 0th order.
+**Note:** File 010 is example of a spectrum file, 011 of a background and 024 and 025 of 0th order.
