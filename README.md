@@ -1,6 +1,10 @@
 # Calibration-GUI
 This GUI takes spectrum images and acquisition parameters, manipulates this data and returns plots. The project was a part of the work on the development of a beamline intended to generate attosecond pulses with photon energies in the water-window region using the high-order harmonic generation process.
 
+<p align="center">
+  <img src=Images/SoftX%20Calibration.png>
+</p>
+
 # Functionalities overview
 
 Each position within the spectrum determines a certain energy, which is why it is extremely important to determine these positions correctly. Positions in the spectrum are determined with respect to the center of the 0th order (x0). To refer to the position of the spot on the image, one can use pixels, but the position of the image itself is given in millimeters. In order to determine this conversion between these two ways of expressing the position, two images of the same 0th order but different acquisition positions must be provided. If the user wants to both find the conversion factor and change the 0th order that is used for the reference, this can be done by selecting the ”Find x0 and s” button. If only the change of the reference 0th order is needed, this can be done by selecting the ”Find x0” button. 
