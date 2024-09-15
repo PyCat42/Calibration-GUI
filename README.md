@@ -17,7 +17,9 @@ Upon clicking on the ”Browse” button for the selection of the spectrum files
 
 The specific region in which the provided spectra will be integrated is selected by the use of the ”Region Selection” button. Another class contained in the SoftX Calibration software is the SelectRegion class, which contains a plotted reference image and two horizontal cursors. The image taken for the reference is the last image added. Upon clicking the ”Region Selection” button, an element of the SelectRegion class is created. After this action, the ”Add” button is disabled and the ”Start” button is enabled.
 
-![](Images/Integration%20Region.png)
+<p align="center">
+  <img src=Images/Integration%20region.png>
+</p>
 
 Finally, the user can choose which plots to save to a new folder with a given default name that contains the date and time of the execution. The user can also choose another name for this folder, but in the case that the folder with the chosen name already exists, the default name is taken. Upon clicking the ”Create” button, it is possible to select the place in which the new folder will be created. After the selection, a newly created folder is opened. There is also the option to save various plots to this folder. Available plots are:
 
@@ -32,5 +34,7 @@ Finally, the user can choose which plots to save to a new folder with a given de
 - saturation check - combined spectrum image with a mask that shows the highest intensity places in purple, saved as .png file.
 
 There is also the option to save all the above-mentioned files by checking the ”save all” checkbox. Once a certain plot is saved, the corresponding check button is disabled until the calibration is restarted in order to avoid saving multiple identical plots.
+
+
 
 **Note:** File 010 is example of a spectrum file, 011 of a background and 024 and 025 of 0th order.
