@@ -17,6 +17,8 @@ Upon clicking on the ”Browse” button for the selection of the spectrum files
 
 The specific region in which the provided spectra will be integrated is selected by the use of the ”Region Selection” button. Another class contained in the SoftX Calibration software is the SelectRegion class, which contains a plotted reference image and two horizontal cursors. The image taken for the reference is the last image added. Upon clicking the ”Region Selection” button, an element of the SelectRegion class is created. After this action, the ”Add” button is disabled and the ”Start” button is enabled.
 
+![](Images/Integration%20Region.png)
+
 Finally, the user can choose which plots to save to a new folder with a given default name that contains the date and time of the execution. The user can also choose another name for this folder, but in the case that the folder with the chosen name already exists, the default name is taken. Upon clicking the ”Create” button, it is possible to select the place in which the new folder will be created. After the selection, a newly created folder is opened. There is also the option to save various plots to this folder. Available plots are:
 
 - energy plot - energy [eV] VS pixel counts [arb. u.], saved both as .png file and .npz file that contains the output of the energy conversion function,
