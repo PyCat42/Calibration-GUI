@@ -5,7 +5,7 @@ This GUI takes spectrum images and acquisition parameters, manipulates this data
 
 Each position within the spectrum determines a certain energy, which is why it is extremely important to determine these positions correctly. Positions in the spectrum are determined with respect to the center of the 0th order (x0). To refer to the position of the spot on the image, one can use pixels, but the position of the image itself is given in millimeters. In order to determine this conversion between these two ways of expressing the position, two images of the same 0th order but different acquisition positions must be provided. If the user wants to both find the conversion factor and change the 0th order that is used for the reference, this can be done by selecting the ”Find x0 and s” button. If only the change of the reference 0th order is needed, this can be done by selecting the ”Find x0” button. 
 
-![]Images/Fitting%20Zero.png
+![](Images/Fitting%20Zero.png)
 
 The user first clicks the ”Browse” button, which opens the dialog that enables the user to choose an .h5 file containing the 0th order data. This data is then loaded, and the intensity of pixels for certain positions is extracted. The Gaussian fit of this data is then attempted in the range from 100 to 1000 pixels. Besides the class that defines the main GUI window, there is a separate class called ZeroWindow that defines a new pop-up window. Said window contains a plot of the 0th order data and two cursors for selecting the new fitting range. Upon choosing the 0th order file, a new instance of the ZeroWindow class is created.
 
